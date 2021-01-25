@@ -1,0 +1,111 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "extends": [
+    "plugin:react/recommended",
+    "airbnb"
+  ],
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "extensions": [
+          ".js",
+          ".ts",
+          ".tsx"
+        ]
+      }
+    }
+  },
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 12,
+    "sourceType": "module"
+  },
+  "plugins": [
+    "react",
+    "@typescript-eslint"
+  ],
+  "rules": {
+    "import/extensions": [
+      "never",
+      {
+        ".ts": "never",
+        ".tsx": "never",
+        ".js": "never"
+      }
+    ],
+    "react/jsx-curly-spacing": {
+      "when": "always",
+      "children": true,
+      "attributes": true
+    },
+    "linebreak-style": "off",
+    "computed-property-spacing": [
+      "warn",
+      "always"
+    ],
+    "react/jsx-closing-tag-location": "off",
+    "import/prefer-defautl-export": 0,
+    "array-bracket-spacing": [
+      1,
+      "always"
+    ],
+    "operator-linebreak": [
+      "warn",
+      "after"
+    ],
+    "arrow-body-style": [
+      "warn",
+      "as-needed"
+    ],
+    "indent": [
+      "warn",
+      2
+    ],
+    "implicit-arrow-linebreak": [
+      "off"
+    ],
+    "comma-dangle": [
+      "error",
+      "only-multiline"
+    ],
+    "no-unused-vars": [
+      "warn",
+      {
+        "ignoreRestSiblings": true
+      }
+    ],
+    "no-use-before-define": [
+      "warn",
+      {
+        "functions": false,
+        "classes": true,
+        "variables": true
+      }
+    ],
+    "no-console": "off",
+    "quote-props": "off",
+    "quotes": [
+      "warn",
+      "single",
+      {
+        "avoidEscape": true
+      }
+    ],
+    "react/jsx-filename-extension": [
+      1,
+      {
+        "extensions": [
+          ".js",
+          ".jsx",
+          ".tsx"
+        ]
+      }
+    ]
+  }
+}
