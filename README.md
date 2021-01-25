@@ -24,7 +24,7 @@ Open an terminal and execute the code below:
   npm start
 ```
 
-This is an App creating with (Expo)[https://expo.io/], is necessary the (Expo Client)[https://expo.io/] in your smartphone for see the app
+This is an App creating with [Expo](https://expo.io/), is necessary the [Expo Client](https://expo.io/) in your smartphone for see the app
 
 ### Opining the App
 
