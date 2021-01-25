@@ -3,6 +3,8 @@ An app for podcast
 
 Hi! This is an app for Podcast inspired by this example [dribbble](https://dribbble.com/shots/11580696-Podcast-App-Exploration), lets see some images below :D
 
+<img src="./src/assets/open.jpg" width="205"/> <img src="./src/assets/home.jpg" width="205"/> <img src="./src/assets/play.jpg" width="205"/>  <img src="./src/assets/paly.jpg" width="205"/> 
+
 ### Installing
 
 Open an terminal and execute the code below:
