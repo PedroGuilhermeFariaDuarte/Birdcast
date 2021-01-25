@@ -26,6 +26,6 @@ Open an terminal and execute the code below:
 
 This is an App creating with [Expo](https://expo.io/), is necessary the [Expo Client](https://expo.io/) in your smartphone for see the app
 
-### Opining the App
+### See the App
 
 In you smartphone open the app Expo and scan the QR Code in your browser, see previous steps (Running), the app will loading and ready :D good fun!
